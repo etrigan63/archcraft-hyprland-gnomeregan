@@ -34,3 +34,8 @@ nm-applet --indicator &
 
 # Start mpd
 exec mpd &
+
+# Start user apps
+exec syncthing-gtk &
+sleep 2
+exec trayscale --hide-window &

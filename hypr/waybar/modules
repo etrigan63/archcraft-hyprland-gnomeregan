@@ -293,7 +293,7 @@
         "exec": "checkupdates | wc -l",
         "exec-if": "[[ $(checkupdates | wc -l) ]]",
         "interval": 600,
-        "on-click": "foot -T update -o 'font=JetBrainsMono Nerd Font:size=13' -o 'app-id=update' -e topgrade; pkill -RTMIN+8 waybar",
+        "on-click": "foot -T update -o 'font=Iosevka Nerd Font:size=11' -o 'app-id=update' -e topgrade; pkill -RTMIN+8 waybar",
         "signal": 8
   },
 }
